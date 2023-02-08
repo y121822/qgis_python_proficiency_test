@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Excel_Data_Exporter" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
