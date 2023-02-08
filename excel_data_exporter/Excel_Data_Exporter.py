@@ -102,10 +102,9 @@ class ExcelDataExporter:
 
 
 class MyClass:
-    """Export features and their geolocation from Assessment Splice,
-       Assessment Cables, Assessment Strand, Assessment Terminals layers
-       within FSA101 boundaries into an Excel file using a template, adding
-       new sheets for each layer and saving the file in a user defined location"""
+    """Exporting all features and their geolocation from Assessment Cables, Assessment Strand,
+       Assessment Splices, Assessment Terminals layers within the FSA 101 boundary into
+       an .xlsm file created from the existing template, with an individual sheet for each layer."""
 
     def __init__(self, path):
         """Initialise required variables, call methods implementing validation
