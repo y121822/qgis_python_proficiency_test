@@ -1,25 +1,25 @@
-## Описание
-Решение тестового задания на позицию Python Developer в компании 
+## Description:
+The solution for the test task for a Python Developer position in 
 VistaCare Communications (Halifax, Nova Scotia, Canada).
 
-## Условие
-<sub><sup>см. файл Python Proficiency Assessment.pdf</sub></sup>
+## Task:
+<sub><sup>please see Python Proficiency Assessment.pdf</sub></sup>
 
-Написать плагин для QGIS, извлекающий из предоставленных геоданных 
-Assessment Data.gpkg объекты, находящиеся в слоях: Assessment Cables, 
-Assessment Strand, Assessment Splices, Assessment Terminals в 
-границах слоя FSA 101. Создающий .xlsm файл на основе шаблона 
-Template.xlsm, добавляющий отдельный лист для каждого из слоев, 
-сохраняющий извлеченные объекты в соответствующий лист с добавлением 
-геолокации для каждого из них.
+Write a QGIS plugin, retrieving from the provided geodata
+(Assessment Data.gpkg) objects located in layers: Assessment Cables, 
+Assessment Strand, Assessment Splices, Assessment Terminals within boundaries 
+of FSA 101 layer and then creating an .xsml file, based on Template.xlsm, 
+adding the separate sheet for each layer to the file and saving retrieved 
+objects with added geolocation into proper sheets.
 
-## Использование
-Для работы плагина загрузите excel_data_exporter.zip в QGIS с помощью 
-опции Install from ZIP метода Manage and Install Plugins меню Plugins. 
-Загрузите геоданные: перетащите файл Assessment Data.gpkg в основное 
-рабочее окно QGIS (выберите пункт Add layers to a group). 
-Запустите плагин Excel Data Exporter. Вывод представлен в 
-файле Result.xlsm.
+## Editing location: 
+Please find MyClass in excel_data_exporter/Excel_Data_Exporter.py
 
-## Результат
-Задание решено успешно, получен job offer.
+## Usage:
+Load excel_data_exporter.zip into QGIS using Manage and Install Plugins method
+of Plugins menu. Load geodata: drag Assessment Data.gpkg into QGIS main working 
+window (check box: Add layers to a group). Start the plugin. Output is saved in
+Result.xlsm.
+
+## Result:
+Successfully solved the task and got the job offer.
